@@ -1,0 +1,80 @@
+/* Margin & Padding reset */
+body, h1, h2, h3, h4, p, img, ul, li
+{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    background: grey
+}
+
+body
+{
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 16px;
+    margin: 0; 
+}
+
+/* Navigation Bar*/
+
+#nav ul
+{
+    position: inherit;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+#nav li
+{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    font-size: 24px;
+}
+
+#nav li a
+{
+    height: 20px;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    border-left: gray 1px solid;
+    border-top: gray 1px solid;
+    border-bottom: gray 1px solid;
+    color:white;
+    text-decoration: none;
+}
+
+#nav a: hover
+{
+    color: white;
+    background-color: lime;
+}
+
+#nav a: active
+{
+    
+}
+
+#container
+{
+    clear: left;
+    background: #fcfcfc;
+    width: 800px;
+    padding: 1em 8em 5em;
+    margin: auto;
+    line-height: 1.5em;
+    
+    
+    
+}
+
+#header
+{
+    background: #ff6600;
+    color: white;
+    padding: 2em 0em 2em
+}
