@@ -7,7 +7,7 @@ body, h1, h2, h3, h4, p, img, ul, li
 
 html
 {
-    background: grey
+    background: #dbd6d6
 }
 
 body
@@ -21,60 +21,73 @@ body
 
 #nav ul
 {
-    position: inherit;
-    right: 0px;
-    bottom: 0px;
-    margin: 0px;
-    padding: 0px;
     background-color: aqua;
+    height: 34px;
+    padding-left: 110px;
+    border-top: gray 1px solid;
+    border-bottom: gray 1px solid;
+    border-left: gray 1px solid;
+    border-right: gray 1px solid;
 }
+
 #nav li
 {
     list-style: none;
-    display: inline;
-    text-align: center;
-    font-size: 24px;
+    display:block;
+    
 }
 
 #nav li a
 {
-    height: 20px;
-    margin: 0px;
-    padding: 0px 10px 0px 10px;
-    border-left: gray 1px solid;
-    border-top: gray 1px solid;
-    border-bottom: gray 1px solid;
-    color:white;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 16px;
     text-decoration: none;
+    background-color: aqua;
+    border-left: gray 1px solid;
+    border-right: gray 1px solid;
 }
 
-#nav a: hover
+.subheader
 {
-    color: white;
-    background-color: lime;
+    clear:left;
+    margin-top: 5px;
 }
-
-#nav a: active
-{
-    
-}
-
-#container
-{
-    clear: left;
-    background: #fcfcfc;
-    width: 800px;
-    padding: 1em 8em 5em;
-    margin: auto;
-    line-height: 1.5em;
-    
-    
-    
-}
+/* Header */
 
 #header
 {
     background: #ff6600;
     color: white;
     padding: 2em 0em 2em
+}
+
+/* Container */
+
+#container
+{
+    background: #fcfcfc;
+    width: 1000px;
+    margin: auto;
+    line-height: 1.5em;
+    padding-bottom: 300px
+}
+
+#container h3, p
+{
+  
+}
+
+/* Footer */
+
+#footer
+{
+    width: 1000px;
+    margin: auto;
+    background-image: url(Pictures/sand.jpg);
+    position: relative;
+    height: 100px;
 }
