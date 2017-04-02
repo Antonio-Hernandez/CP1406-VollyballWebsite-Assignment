@@ -17,6 +17,81 @@ body
     margin: 0; 
 }
 
+/* Header */
+
+#header
+{
+    background: #ff6600;
+    padding: 4em 0em 4em
+}
+
+#header h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-left: 50px
+}
+
+#header ul
+{
+    float: right;
+    width: 150px;
+    max-height: px;
+    margin-right: 60px;
+    margin-top: -40px;
+    text-align: center;
+    background: #efefef;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    border: 4px grey solid;
+}
+
+#header li
+{
+    list-style: none;
+    font-size: 16px;
+}
+
+#header li a
+{
+    text-decoration: none;
+    background-color: #ff781e;
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #282828;
+    padding: 2px;
+    border: 2px grey solid;
+}
+
+#header li a:hover
+{
+    background: aqua;
+}
+
+.subheader
+{
+    clear:left;
+    background: #515151;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.subheader h2
+{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
 /* Navigation Bar*/
 
 #nav ul
@@ -24,10 +99,10 @@ body
     background-color: aqua;
     height: 34px;
     padding-left: 110px;
-    border-top: gray 1px solid;
-    border-bottom: gray 1px solid;
-    border-left: gray 1px solid;
-    border-right: gray 1px solid;
+    border-top: gray 2px solid;
+    border-bottom: gray 2px solid;
+    border-left: gray 2px solid;
+    border-right: gray 2px solid;
 }
 
 #nav li
@@ -49,21 +124,15 @@ body
     background-color: aqua;
     border-left: gray 1px solid;
     border-right: gray 1px solid;
-}
-
-.subheader
-{
-    clear:left;
-    margin-top: 5px;
-}
-/* Header */
-
-#header
-{
-    background: #ff6600;
     color: white;
-    padding: 2em 0em 2em
+    text-shadow: 1px 1px 1px #282828;
 }
+
+#nav li a:hover
+{
+    background-color:#ff6600;
+}
+
 
 /* Container */
 
@@ -76,9 +145,19 @@ body
     padding-bottom: 300px
 }
 
-#container h3, p
+#container h3
 {
-  
+    padding-left: 135px;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#container p
+{
+    padding-left: 7em;
+    padding-right: 7em;
+    font-size: 18px;
 }
 
 /* Footer */
