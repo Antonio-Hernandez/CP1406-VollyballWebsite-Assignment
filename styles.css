@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, p, img, ul, li
     margin: 0;
 }
 
+/* Quick layout edits*/
 html
 {
     background: #dbd6d6
@@ -30,7 +31,7 @@ body
     text-align: center;
     color: white;
     font-size: 50px;
-    margin-left: 50px
+    margin-left: 200px
 }
 
 #header ul
@@ -61,19 +62,27 @@ body
     text-decoration: none;
     background-color: #ff781e;
     display: block;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 600;
     color: whitesmoke;
     border-radius: 20px;
     margin-top: 10px;
     text-shadow: 1px 1px 1px #282828;
-    padding: 2px;
+    padding-bottom: 2px;
     border: 2px grey solid;
+  
 }
 
 #header li a:hover
 {
     background: aqua;
+}
+
+#header a img
+{
+    float: left;
+    margin-top: -105px;
+    margin-left: 50px;
 }
 
 .subheader
@@ -155,10 +164,29 @@ body
 
 #container p
 {
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 8em;
+    padding-right: 8em;
     font-size: 18px;
+    margin-top: 40px;
 }
+
+.spacing span
+{
+    display:block;
+    margin-left: 90px;
+    margin-top: -23px
+}
+
+.links p
+{
+    margin-bottom: -20px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
 
 /* Footer */
 
@@ -166,7 +194,7 @@ body
 {
     width: 1000px;
     margin: auto;
-    background-image: url(Pictures/sand.jpg);
+    background-image: url(Pictures/sand_web.jpeg);
     position: relative;
     height: 100px;
 }
