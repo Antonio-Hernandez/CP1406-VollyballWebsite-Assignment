@@ -302,7 +302,35 @@ body
 {
     width: 1000px;
     margin: auto;
-    background-image: url(Pictures/sand_web.jpeg);
+    background-image: url(Pictures/sand_clipped.jpg);
     position: relative;
     height: 100px;
+}
+
+#footer ul
+{
+    float: left;
+    max-width: 800px;
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+#footer li
+{
+    list-style: none;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #282828;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#footer li a:hover
+{
+    color: white
+}
+
+#footer li a:active
+{
+    color: purple;
 }
